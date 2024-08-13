@@ -1,0 +1,69 @@
+body.backgroundCentral {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5f7; /* Cor de fundo */
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    background-repeat: repeat;
+}
+
+.TituloPagina {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.Inicio {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    margin-left: 22px;
+}
+
+.Inicio p {
+    margin-left: 18px;
+    font-size: 30px;
+}
+
+.texto-imagem-container {
+    display: flex;
+    align-items: center;
+}
+
+.texto-imagem-container p {
+    text-align: left;
+    padding: 20px;
+}
+
+.imgInicio {
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+.sessao1, .sessao2, .sessao3 {
+    padding: 20px;
+    background: white; /* Fundo branco para se destacar no fundo */
+}
+
+.sessao1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulosessao1 {
+    font-size: 30px;
+}
+
+.sessao2 img {
+    width: 20%;
+}
+
+.images {
+    width: 300px;
+}
+
+.musicas iframe {
+    display: block;
+    margin: 10px 0;
+}
